@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
+import '../index.css';
 
-function App() {
+function ButtonClickApp() {
   const [count, setCount] = useState(0)
 
   const clickHandler = () => {
@@ -17,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default ButtonClickApp;

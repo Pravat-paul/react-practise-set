@@ -1,0 +1,35 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #545151;
+    color:#fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    padding: 0px 10px;
+    display: inline;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.brand {
+    float: left;
+    padding: 2px;
+    background: #423f3f;
+}
+
+.brand img {
+    width: 50px;
+    margin: 0px 40px;
+}
